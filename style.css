@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div#suporte {
+    height: 190px;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    margin: auto;
+    background-color: black;
+}
+div#lampada {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    left: 47%;
+    top: 21%;
+    margin: auto;
+    background-color: gray;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+div.bot {
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    padding-top: 4%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 67vh;
+    transition-duration: 0.5s;
+}
+div#azul:hover {
+    height: 43px;
+    padding-top: 4.3%;
+    background-color: rgb(0, 16, 43);
+    color: rgb(0, 26, 255);
+}
+div#vermelho:hover {
+    height: 43px;
+    padding-top: 4.3%;
+    background-color: rgb(43, 0, 0);
+    color: rgb(255, 0, 0);
+}
+div#verde:hover {
+    height: 43px;
+    padding-top: 4.3%;
+    background-color: rgb(0, 43, 1);
+    color: rgb(0, 255, 0);
+}
+div#amarelo:hover {
+    height: 43px;
+    padding-top: 4.3%;
+    background-color: rgb(43, 43, 0);
+    color: rgb(208, 255, 0);
+}
+div#roxo:hover {
+    height: 43px;
+    padding-top: 4.3%;
+    background-color: rgb(11, 0, 43);
+    color: rgb(64, 0, 255);
+}
+
+div.h {
+    color: rgb(251, 255, 0);
+}

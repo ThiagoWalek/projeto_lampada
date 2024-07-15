@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="suporte"></div>
+    <div id="lampada"></div>
+
+    <div class="bot" id="azul">Azul</div>
+    <div class="bot" id="vermelho">Vermelho</div>
+    <div class="bot" id="verde">Verde</div>
+    <div class="bot" id="amarelo">Amarelo</div>
+    <div class="bot" id="roxo">Roxo</div>
+    <div>
+        <label for="barra">Intensidade da luz</label>
+        <input type="range" name="barra" id="barra" max="150" value="0">
+    </div>
+    <span id="intensidade">50</span>
+    <div>
+        <label for="luz_cor">Cor da luz</label>
+        <input type="color" name="luz_cor" id="luz_cor">
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
