@@ -9,6 +9,8 @@ const cor_aleatoria = document.getElementById("luz_cor")
 cor_aleatoria.oninput = function () {
     lampada.style.background = this.value
     cor_sombra = this.value
+    barra.value = 0
+    lampada.style.boxShadow = `0px 10px 180px 0px ${cor_sombra}`
 }
 const lampada = document.getElementById("lampada")
 
@@ -18,26 +20,31 @@ azul.onclick = function (){
     lampada.style.background = "blue"
     cor_sombra = "blue"
     barra.value = 0
+    lampada.style.boxShadow = `0px 10px 180px 0px ${cor_sombra}`
 }
 vermelho.onclick = function (){
     lampada.style.background = "red"
     cor_sombra = "red"
     barra.value = 0
+    lampada.style.boxShadow = `0px 10px 180px 0px ${cor_sombra}`
 }
 verde.onclick = function (){
     lampada.style.background = "green"
     cor_sombra = "green"
     barra.value = 0
+    lampada.style.boxShadow = `0px 10px 180px 0px ${cor_sombra}`
 }
 amarelo.onclick = function (){
     lampada.style.background = "yellow"
     cor_sombra = "#FEE12B"
     barra.value = 0
+    lampada.style.boxShadow = `0px 10px 180px 0px ${cor_sombra}`
 }
 roxo.onclick = function (){
     lampada.style.background = "#8F00FF"
     cor_sombra = "purple"
     barra.value = 0
+    lampada.style.boxShadow = `0px 10px 180px 0px ${cor_sombra}`
 }
 
 

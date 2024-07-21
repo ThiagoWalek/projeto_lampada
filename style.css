@@ -14,59 +14,108 @@ div#suporte {
     margin: auto;
     background-color: black;
 }
+
 div#lampada {
     height: 130px;
     width: 130px;
-    position: absolute;
-    left: 47%;
-    top: 21%;
-    margin: auto;
+    position: relative;
+    right: 80%;
+    top: 70%;
     background-color: gray;
     border-radius: 50%;
+    border: 0.1px solid white;
     transition-duration: 0.5s;
 }
 
 div.bot {
     cursor: pointer;
     height: 40px;
-    width: 80px;
-    padding-top: 4%;
+    /* width: 80px; */
+    width: 40vw;
+    padding-top: 2vw;
     background-color: black;
     color: white;
     text-align: center;
     display: inline-block;
-    margin-top: 67vh;
-    transition-duration: 0.5s;
+    margin: 67vh 0px 15px 0px;
+    border-radius: 15px;
+  
+    box-shadow: 0 9px #999;
 }
-div#azul:hover {
+
+div#azul {
     height: 43px;
-    padding-top: 4.3%;
+    width: 83px;
     background-color: rgb(0, 16, 43);
     color: rgb(0, 26, 255);
 }
-div#vermelho:hover {
+div#azul:hover {
+    border: 1px solid rgb(0, 16, 43);
+    background-color: white;
+}
+div#azul:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div#vermelho {
     height: 43px;
-    padding-top: 4.3%;
+    width: 83px;
     background-color: rgb(43, 0, 0);
     color: rgb(255, 0, 0);
 }
-div#verde:hover {
+div#vermelho:hover {
+    border: 1px solid rgb(43, 0, 0);
+    background-color: white;
+}
+div#vermelho:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div#verde {
     height: 43px;
-    padding-top: 4.3%;
+    width: 83px;
     background-color: rgb(0, 43, 1);
     color: rgb(0, 255, 0);
 }
-div#amarelo:hover {
+div#verde:hover {
+    border: 1px solid rgb(0, 43, 1);
+    background-color: white;
+}
+div#verde:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div#amarelo {
     height: 43px;
-    padding-top: 4.3%;
+    width: 83px;
     background-color: rgb(43, 43, 0);
     color: rgb(208, 255, 0);
 }
-div#roxo:hover {
+div#amarelo:hover {
+    border: 1px solid rgb(43, 43, 0);
+    background-color: white;
+}
+div#amarelo:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div#roxo {
     height: 43px;
-    padding-top: 4.3%;
+    width: 83px;
     background-color: rgb(11, 0, 43);
     color: rgb(64, 0, 255);
+}
+div#roxo:hover {
+    border: 1px solid rgb(11, 0, 43);
+    background-color: white;
+}
+div#roxo:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 div.h {
